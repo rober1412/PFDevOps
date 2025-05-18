@@ -34,12 +34,16 @@ reto_final_python/
 - Docker Compose (ya viene con Docker Desktop)
 
 #### Pasos para ejecutar
+1. Clonar el repositorio
 ```bash
 git clone <URL_DEL_REPOSITORIO>
 cd reto_final_python
+```
+2. Levantar los servicios
+```bash
 docker-compose up --build
 ```
-La app estará disponible en http://localhost:5000
+3. La app estará disponible en http://localhost:5000
 
 <nbsp>
 </nbsp>
@@ -55,15 +59,30 @@ La app estará disponible en http://localhost:5000
 </nbsp>
 
 ## Ejemplos de uso con curl
+1. Insertar un nuevo dato (POST)
 ```bash
 curl -X POST http://localhost:5000/data \
      -H "Content-Type: application/json" \
      -d '{"name": "Ejemplo"}'
+```
+2. Obtener todos los datos (GET)
+```bash
 curl http://localhost:5000/data
+```
+3. Elimianr un dato por ID (DELETE)
+```bash
 curl -X DELETE http://localhost:5000/data/1
 ```
+
 <nbsp>
 </nbsp>
+
+## Componentes técnicos
+- Python 3.10
+- Flask
+- SQLAlchemy
+- PostgreSQL
+- Docker / Docker Compose
 
 ## Tests unitarios
 El proyecto incluye una batería de tests desarrollados con **pytest**, que prueban:
