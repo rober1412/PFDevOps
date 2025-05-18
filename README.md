@@ -11,18 +11,18 @@ Este proyecto es una API REST básica desarrollada con Flask y conectada a una b
 ```bash
 reto_final_python/
 ├── app/
-│   ├── __init__.py         # Inicializa la app Flask y registra rutas
-│   ├── config.py           # Configuración por entorno
-│   ├── models.py           # Modelo Data (ORM con SQLAlchemy)
-│   └── routes.py           # Endpoints de la API
+│   ├── __init__.py         
+│   ├── config.py           
+│   ├── models.py           
+│   └── routes.py           
 ├── tests/
-│   └── test_routes.py      # Tests unitarios con pytest
-├── Dockerfile              # Imagen del servicio web
-├── docker-compose.yml      # Orquestador de servicios
-├── wait-for-db.sh          # Espera a que PostgreSQL esté lista
-├── manage.py               # Crea tablas e inserta datos (si aplica)
-├── requirements.txt        # Dependencias del proyecto
-└── README.md               # Este documento
+│   └── test_routes.py      
+├── Dockerfile              
+├── docker-compose.yml      
+├── wait-for-db.sh          
+├── manage.py               
+├── requirements.txt        
+└── README.md               
 ```
 
 <nbsp>
