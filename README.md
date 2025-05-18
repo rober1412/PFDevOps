@@ -8,6 +8,7 @@ Este proyecto es una API REST básica desarrollada con Flask y conectada a una b
 
 ##  Estructura del proyecto
 
+```bash
 reto_final_python/
 ├── app/
 │   ├── __init__.py         # Inicializa la app Flask y registra rutas
@@ -22,6 +23,7 @@ reto_final_python/
 ├── manage.py               # Crea tablas e inserta datos (si aplica)
 ├── requirements.txt        # Dependencias del proyecto
 └── README.md               # Este documento
+```
 
 <nbsp>
 </nbsp>
