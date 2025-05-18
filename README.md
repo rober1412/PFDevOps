@@ -69,7 +69,7 @@ curl -X POST http://localhost:5000/data \
 ```bash
 curl http://localhost:5000/data
 ```
-3. Elimianr un dato por ID (DELETE)
+3. Eliminar un dato por ID (DELETE)
 ```bash
 curl -X DELETE http://localhost:5000/data/1
 ```
