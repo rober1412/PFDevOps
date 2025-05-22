@@ -61,7 +61,7 @@ docker-compose up --build
 ## Ejemplos de uso con curl
 1. Insertar un nuevo dato (POST)
 ```bash
-curl.exe --% -X POST http://localhost:5000/data -H "Content-Type: application/json" -d "{\"name\":\"Usuario Añadido\"}"
+curl -X POST http://localhost:5000/data -H "Content-Type: application/json" -d "{\"name\":\"Ejemplo\"}"
 ```
 2. Obtener todos los datos (GET)
 ```bash
